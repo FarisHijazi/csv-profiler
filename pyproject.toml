@@ -32,8 +32,8 @@ dev = [
 ]
 
 [project.scripts]
-csv-profiler = "csv_profiler.cli:app"
+csv-profiler = "src.cli:app"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["csv_profiler*"]
+include = ["src*"]

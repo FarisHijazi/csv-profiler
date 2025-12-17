@@ -5,8 +5,8 @@ from typing import Optional
 
 import typer
 
-from csv_profiler.profiler import profile_csv
-from csv_profiler.render import generate_json_report, generate_markdown_report
+from src.profiler import profile_csv
+from src.render import generate_json_report, generate_markdown_report
 
 app = typer.Typer(help="CSV Profiler - Analyze and profile CSV files")
 
